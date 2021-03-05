@@ -1,0 +1,256 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar Section */
+.navbar {
+  background-color: white !important;
+}
+
+h1,
+h4 {
+  font-weight: bold;
+}
+
+span {
+  color: #f1a350;
+}
+
+.main-container {
+  margin-top: 120px;
+}
+
+.about-container {
+  margin-top: 100px;
+}
+
+button.navbar-toggle span {
+  background: #000;
+}
+
+/* Education Section  */
+.education-container {
+  margin-top: 220px;
+}
+
+.education-title {
+  text-align: center;
+  color: #515151;
+  font-size: 30px;
+}
+
+.education-logo {
+  margin-top: 30px;
+  max-width: 600px;
+}
+
+.about-education {
+  margin-top: 50px;
+}
+
+.about-education-container {
+  margin-top: 50px;
+}
+
+.about-education h2 {
+  font-weight: bold;
+  font-size: 20px;
+  color: #515151;
+}
+
+.about-education h3 {
+  margin-top: 40px;
+  font-size: 17px;
+  color: #515151;
+  font-weight: bold;
+}
+
+.about-education p {
+  font-size: 15px;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: normal;
+  color: #515151;
+  font-size: 18px;
+}
+
+/* Experiences Section  */
+.experiences-container {
+  margin-top: 500px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 482px) {
+  h1,
+  h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .logo-online {
+    width: 250px;
+    height: auto;
+  }
+
+  .about-container {
+    margin-top: 30px;
+  }
+
+  .about-container p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .main-container {
+    margin-top: 120px;
+  }
+
+  /* Education  */
+  .education-logo {
+    max-width: 300px;
+    margin-top: 0px;
+    margin: 0 10px;
+    display: block;
+    margin: auto;
+  }
+
+  .about-education-container {
+    margin-top: 10px;
+    grid-column: 6;
+  }
+
+  .education-title {
+    font-size: 24px;
+  }
+
+  .kotak-edu {
+    width: 100%;
+  }
+}
+
+
+@media only screen and (min-width: 483px) and (max-width: 600px){
+  h1,
+  h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .logo-online {
+    width: 250px;
+    height: auto;
+  }
+
+  .about-container {
+    margin-top: 30px;
+  }
+
+  .about-container p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .main-container {
+    margin-top: 120px;
+  }
+
+  /* Education  */
+  .education-logo {
+    max-width: 400px;
+    margin-top: 0px;
+    margin: 0 10px;
+    display: block;
+    margin: auto;
+  }
+
+  .about-education-container {
+    margin-top: 10px;
+    grid-column: 6;
+  }
+
+  .education-title {
+    font-size: 24px;
+  }
+
+  .kotak-edu {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  h1,
+  h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .logo-online {
+    padding: 0 100px;
+  }
+
+  .about-container {
+    margin-top: 30px;
+  }
+
+  .about-container p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .about-education-container {
+    margin-top: 10px;
+  }
+
+  .education-logo {
+    margin-top: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+  .education-logo {
+    width: 550px;
+    display: block;
+    margin: auto;
+  }
+
+  .about-education-container {
+    margin-top: 30px;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .logo-online {
+    max-width: 45%;
+    padding: 0;
+  }
+
+  h1,
+  h4 {
+    text-align: start;
+  }
+
+  .about-container p {
+    text-align: start;
+  }
+
+  .about-container {
+    margin-top: 10%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

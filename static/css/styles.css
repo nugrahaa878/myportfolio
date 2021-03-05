@@ -1,0 +1,16 @@
+.nav-item {
+    margin: 0 30px;
+}
+
+.icon-bar
+{
+  background:green !important; /*Whatever colour you want for icon lines*/
+}
+.navbar-toggle
+{
+  background:yellow !important; /*Whatever colour you want for background */
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: darkblue; /* Whatever Colour you want */
+}

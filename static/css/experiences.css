@@ -1,0 +1,69 @@
+.experiences-container {
+    margin-top: 200px;
+}
+
+.ex-title {
+    text-align: center;
+    color: #515151;
+    font-size: 30px;
+}
+
+.my-card {
+    box-shadow: 2px 5px #bdc3c7;
+    border-radius: 2px;
+    margin: 0 20px;
+    padding: 0 20px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.my-card h4 {
+    text-align: center;
+}
+
+.my-card p {
+    font-size: 15px;
+}
+
+.jabatan {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 0;
+}
+
+.tanggal {
+    font-size: 13px;
+    font-style: italic;
+    color: #F1A350;
+    text-align: center;
+}
+
+.keterangan {
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.logo-imami {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo-compfest {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.my-card {
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .my-card {
+        padding: 0px 30px;
+        margin: 10px 20px;
+    }
+}
